@@ -1,0 +1,13 @@
+C:\Users\fedem\OneDrive\Documents\personal_repos\kmeans\cSharp\bin\Debug\netcoreapp3.1\kmeans.exe
+C:\Users\fedem\OneDrive\Documents\personal_repos\kmeans\cSharp\bin\Debug\netcoreapp3.1\kmeans.deps.json
+C:\Users\fedem\OneDrive\Documents\personal_repos\kmeans\cSharp\bin\Debug\netcoreapp3.1\kmeans.runtimeconfig.json
+C:\Users\fedem\OneDrive\Documents\personal_repos\kmeans\cSharp\bin\Debug\netcoreapp3.1\kmeans.runtimeconfig.dev.json
+C:\Users\fedem\OneDrive\Documents\personal_repos\kmeans\cSharp\bin\Debug\netcoreapp3.1\kmeans.dll
+C:\Users\fedem\OneDrive\Documents\personal_repos\kmeans\cSharp\bin\Debug\netcoreapp3.1\kmeans.pdb
+C:\Users\fedem\OneDrive\Documents\personal_repos\kmeans\cSharp\obj\Debug\netcoreapp3.1\kmeans.csprojAssemblyReference.cache
+C:\Users\fedem\OneDrive\Documents\personal_repos\kmeans\cSharp\obj\Debug\netcoreapp3.1\kmeans.AssemblyInfoInputs.cache
+C:\Users\fedem\OneDrive\Documents\personal_repos\kmeans\cSharp\obj\Debug\netcoreapp3.1\kmeans.AssemblyInfo.cs
+C:\Users\fedem\OneDrive\Documents\personal_repos\kmeans\cSharp\obj\Debug\netcoreapp3.1\kmeans.dll
+C:\Users\fedem\OneDrive\Documents\personal_repos\kmeans\cSharp\obj\Debug\netcoreapp3.1\kmeans.pdb
+C:\Users\fedem\OneDrive\Documents\personal_repos\kmeans\cSharp\obj\Debug\netcoreapp3.1\kmeans.genruntimeconfig.cache
+C:\Users\fedem\OneDrive\Documents\personal_repos\kmeans\cSharp\obj\Debug\netcoreapp3.1\kmeans.csproj.CoreCompileInputs.cache
