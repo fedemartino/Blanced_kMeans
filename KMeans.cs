@@ -13,8 +13,11 @@ namespace KMeans
         public int Iterations {get;set;}
         public int[][] Centroids {get; private set;}
         private int[][] oldCentroids;
-        public KMeans(int kClusters, int dimensions, int maxIterations = 1000)
+        private bool balanced;
+        private int maxPerCluster = 0;
+        public KMeans(int kClusters, int dimensions, bool balanced = true, int maxIterations = 1000)
         {
+            this.balanced = balanced;
             this.KClusters = kClusters;
             this.Dimensions = dimensions;
             this.Centroids = new int[kClusters][];
@@ -72,6 +75,10 @@ namespace KMeans
         }
         public void CaluclateKMeans(DataSet dataSet)
         {
+            if (balanced)
+            {
+                maxPerCluster = dataSet.Data.Count/this.KClusters;
+            }
             // Initialize centroids randomly
             InitializeCentroids(dataSet);
             
@@ -176,11 +183,14 @@ namespace KMeans
                 centroidIndex = 0;
                 foreach (int[] c in this.Centroids)
                 {
-                    double tmpDistance = GetDistance(dataSet.Data[id], c);
-                    if (tmpDistance < minDistance)
+                    if (dataSet.CentroidLabels[centroidIndex].Count < this.maxPerCluster)
                     {
-                        closestCentroid = centroidIndex;
-                        minDistance = tmpDistance;
+                        double tmpDistance = GetDistance(dataSet.Data[id], c);
+                        if (tmpDistance < minDistance)
+                        {
+                            closestCentroid = centroidIndex;
+                            minDistance = tmpDistance;
+                        }
                     }
                     centroidIndex++;
                 }

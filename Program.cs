@@ -19,7 +19,7 @@ namespace KMeans
             s.Data["10"] = new int[]{-8,3};
             s.Data["11"] = new int[]{-4,5};
             s.Data["12"] = new int[]{-6,7};
-            KMeans k = new KMeans(4, 2, 1000);
+            KMeans k = new KMeans(4, 2, true, 1000);
             k.CaluclateKMeans(s);
             int i = 0;
             foreach (int[] c in k.Centroids)
